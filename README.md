@@ -1,10 +1,10 @@
 # Mantine React Table
 
-View the [Docs Site](https://www.mantine-react-table.com/)
+<!-- View the [Docs Site](https://www.mantine-react-table.com/) -->
 
-A fork of [Material React Table](https://www.material-react-table.com)
+A fork of [Mantine React Table - v2](https://v2.mantine-react-table.com/)
 
-V1 released July 18, 2023
+<!-- V1 released July 18, 2023
 
 <a href="https://npmjs.com/package/mantine-react-table" target="_blank">
   <img alt="" src="https://badgen.net/npm/v/mantine-react-table?color=blue" />
@@ -23,23 +23,23 @@ V1 released July 18, 2023
 </a>
 <a href="http://makeapullrequest.com" target="_blank">
   <img alt="" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" />
-</a>
+</a> -->
 
 ## About
 
 ### _Quickly Create React Data Tables with Mantine_
 
-### __Built with [Mantine <sup>V7</sup>](https://mantine.dev/) and [TanStack Table <sup>V8</sup>](https://tanstack.com/table/v8)__
+### __Built with [Mantine <sup>V8</sup>](https://mantine.dev/) and [TanStack Table <sup>V8</sup>](https://tanstack.com/table/v8)__
 
 <img src="https://mantine-react-table.com/banner.png" alt="MRT" height="50"/>
 
-## Learn More
+<!-- ## Learn More
 
 - Join the [Discord](https://discord.gg/5wqyRx6fnm) server to join in on the development discussion or ask questions
 - View the [Docs Website](https://www.mantine-react-table.com/)
-- See all [Props, Options, and APIs](https://www.mantine-react-table.com/docs/api)
+- See all [Props, Options, and APIs](https://www.mantine-react-table.com/docs/api) -->
 
-### Quick Examples
+<!-- ### Quick Examples
 
  - [Basic Table](https://www.mantine-react-table.com/docs/examples/basic/) (See Default Features)
  - [Minimal Table](https://www.mantine-react-table.com/docs/examples/minimal/) (Turn off Features like Pagination, Sorting, Filtering, and Toolbars)
@@ -53,13 +53,13 @@ V1 released July 18, 2023
  - [Infinite Scrolling](https://www.mantine-react-table.com/docs/examples/infinite-scrolling/) (Fetch data as you scroll)
  - [Localization (i18n)](https://www.mantine-react-table.com/docs/guides/localization#built-in-locale-examples) (Over a dozen languages built-in)
 
-View additional [storybook examples](https://www.mantine-react-table.dev/)
+View additional [storybook examples](https://www.mantine-react-table.dev/) -->
 
 ## Features
 
 _All features can easily be enabled/disabled_
 
-_**Fully Fleshed out [Docs](https://www.mantine-react-table.com/docs/guides#guides) are available for all features**_
+<!-- _**Fully Fleshed out [Docs](https://www.mantine-react-table.com/docs/guides#guides) are available for all features**_ -->
 
 - [x] < 44kb gzipped - [Bundlephobia](https://bundlephobia.com/package/mantine-react-table)
 - [x] Advanced TypeScript Generics Support (TypeScript Optional)
@@ -98,11 +98,11 @@ _**Fully Fleshed out [Docs](https://www.mantine-react-table.com/docs/guides#guid
 
 ### Installation
 
-View the full [Installation Docs](https://www.mantine-react-table.com/docs/getting-started/install)
+<!-- View the full [Installation Docs](https://www.mantine-react-table.com/docs/getting-started/install) -->
 
-1. Ensure that you have React 17 or later installed
+1. Ensure that you have React 18 or later installed
 
-2. Install Peer Dependencies (Mantine V6 and Tabler Icons)
+2. Install Peer Dependencies (Mantine V8 and Tabler Icons)
 
 ```bash
 npm install @mantine/core @mantine/hooks @mantine/dates @emotion/react @tabler/icons-react dayjs
@@ -111,7 +111,7 @@ npm install @mantine/core @mantine/hooks @mantine/dates @emotion/react @tabler/i
 3. Install mantine-react-table
 
 ```bash
-npm install mantine-react-table
+npm install @edwardeb/mantine-react-table
 ```
 
 > _`@tanstack/react-table`, `@tanstack/react-virtual`, `@tanstack/match-sorter-utils`,_ are internal dependencies, so you do NOT need to install them yourself.
@@ -175,16 +175,18 @@ export default function App() {
 }
 ```
 
-_Open in [Code Sandbox](https://codesandbox.io/s/simple-mantine-react-table-example-t5c3ji)_
+<!-- _Open in [Code Sandbox](https://codesandbox.io/s/simple-mantine-react-table-example-t5c3ji)_ -->
 
 ## Contributors
 
-<a href="https://github.com/kevinvandy/mantine-react-table/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kevinvandy/mantine-react-table" />
+<a href="https://github.com/EdwardEB/mantine-react-table/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EdwardEB/mantine-react-table" />
 </a>
 
-PRs are Welcome, but please discuss in [GitHub Discussions](https://github.com/KevinVandy/mantine-react-table/discussions) or the [Discord Server](https://discord.gg/5wqyRx6fnm) first if it is a large change!
+PRs are Welcome, but please discuss in [GitHub Discussions](https://github.com/KevinVandy/mantine-react-table/discussions)
 
-Read the [Contributing Guide](https://github.com/KevinVandy/mantine-react-table/blob/v2/CONTRIBUTING.md) to learn how to run this project locally.
+ <!-- or the [Discord Server](https://discord.gg/5wqyRx6fnm) first if it is a large change! -->
+
+<!-- Read the [Contributing Guide](https://github.com/KevinVandy/mantine-react-table/blob/v2/CONTRIBUTING.md) to learn how to run this project locally. -->
 
 <!-- Use the FORCE Luke! -->
