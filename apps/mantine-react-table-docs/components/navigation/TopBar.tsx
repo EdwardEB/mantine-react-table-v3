@@ -119,10 +119,10 @@ export const TopBar = ({ navOpen, setNavOpen }: Props) => {
                 height={isTablet ? 35 : 45}
                 width={isTablet ? 35 : 45}
               />
-              {!isMobile && 'Mantine React Table'}
+              {!isMobile && 'Mantine React Table v3'}
             </Text>
           </Link>
-          <Select
+          {/* <Select
             data={[
               { value: 'www.mantine-react-table.com', label: 'V1' },
               { value: 'v2.mantine-react-table.com', label: 'V2' },
@@ -134,7 +134,7 @@ export const TopBar = ({ navOpen, setNavOpen }: Props) => {
             value="v2.mantine-react-table.com"
             size="xs"
             maw="60px"
-          />
+          /> */}
         </Flex>
         <Box
           onClick={() => plausible('open-search')}
@@ -162,14 +162,14 @@ export const TopBar = ({ navOpen, setNavOpen }: Props) => {
               c="white"
               variant="transparent"
               size={isMobile ? 'sm' : 'lg'}
-              href="https://github.com/KevinVandy/mantine-react-table"
+              href="https://github.com/EdwardEB/mantine-react-table"
               rel="noopener"
               target="_blank"
             >
               <IconBrandGithub />
             </ActionIcon>
           </Tooltip>
-          <Tooltip label="Discord">
+          {/* <Tooltip label="Discord">
             <ActionIcon
               component={Link}
               aria-label="Discord"
@@ -182,7 +182,7 @@ export const TopBar = ({ navOpen, setNavOpen }: Props) => {
             >
               <IconBrandDiscord />
             </ActionIcon>
-          </Tooltip>
+          </Tooltip> */}
           <Tooltip label="Toggle Light/Dark Mode">
             <ActionIcon
               aria-label="Toggle Light/Dark Mode"

@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <Stack className={classes.wrapper}>
       <Alert variant="light" color="blue" icon={<IconInfoCircle />}>
-        Mantine React Table V2 is now in beta. 🎉
+        Mantine React Table V3 is now in alpha. 🎉
       </Alert>
       <Title className={classes.title} order={1}>
         Welcome To
@@ -39,7 +39,7 @@ const HomePage = () => {
             target="_blank"
             rel="noopener"
           >
-            Mantine<sup>V7</sup>
+            Mantine<sup>V8</sup>
           </Anchor>
         </Link>{' '}
         and&nbsp;

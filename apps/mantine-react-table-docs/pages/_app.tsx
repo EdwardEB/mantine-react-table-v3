@@ -45,17 +45,17 @@ function App({ Component, pageProps }: AppProps) {
           name="description"
           content="Mantine React Table, a fully featured Mantine implementation of TanStack React Table V8. Written from the ground up in TypeScript."
         />
-        <link
+        {/* <link
           rel="canonical"
           href={`https://www.mantine-react-table.com${pathname}`}
-        />
+        /> */}
         <link rel="icon" href="/mrt_logo.png" />
-        <meta property="og:image" content="/mrt_logo.png" />
-        <meta
+        {/* <meta property="og:image" content="/mrt_logo.png" /> */}
+        {/* <meta
           property="og:url"
           content={`https://www.mantine-react-table.com${pathname}`}
-        />
-        {process.env.NODE_ENV === 'production' && (
+        /> */}
+        {/* {process.env.NODE_ENV === 'production' && (
           <>
             <link
               rel="preconnect"
@@ -68,54 +68,54 @@ function App({ Component, pageProps }: AppProps) {
               crossOrigin="anonymous"
             />
           </>
-        )}
+        )} */}
       </Head>
-      <PlausibleProvider
+      {/* <PlausibleProvider
         domain="v2.mantine-react-table.com"
         enabled={process.env.NODE_ENV === 'production'}
-      >
-        <ThemeContextProvider>
-          <MDXProvider components={mdxComponents}>
-            <AppShell
-              header={{ height: 55 }}
-              navbar={{ width: 300, breakpoint: 'sm' }}
-              padding="md"
+      > */}
+      <ThemeContextProvider>
+        <MDXProvider components={mdxComponents}>
+          <AppShell
+            header={{ height: 55 }}
+            navbar={{ width: 300, breakpoint: 'sm' }}
+            padding="md"
+          >
+            <TopBar navOpen={isNavOpen} setNavOpen={setNavOpen} />
+            <SideBar navOpen={isNavOpen} setNavOpen={setNavOpen} />
+            <AppShell.Main
+              style={{
+                maxWidth: showMiniNav ? '1800px' : '1600px',
+                margin: 'auto',
+                minHeight: '100vh',
+                padding: `75px ${
+                  isMobile
+                    ? '16px'
+                    : showMiniNav && isXLDesktop
+                      ? '300px'
+                      : '36px'
+                } 0 ${isMobile ? '16px' : isNavOpen ? '300px' : '36px'}`,
+                transition: 'all 150ms ease-in-out',
+                width: '100%',
+              }}
             >
-              <TopBar navOpen={isNavOpen} setNavOpen={setNavOpen} />
-              <SideBar navOpen={isNavOpen} setNavOpen={setNavOpen} />
-              <AppShell.Main
-                style={{
-                  maxWidth: showMiniNav ? '1800px' : '1600px',
-                  margin: 'auto',
-                  minHeight: '100vh',
-                  padding: `75px ${
-                    isMobile
-                      ? '16px'
-                      : showMiniNav && isXLDesktop
-                        ? '300px'
-                        : '36px'
-                  } 0 ${isMobile ? '16px' : isNavOpen ? '300px' : '36px'}`,
-                  transition: 'all 150ms ease-in-out',
-                  width: '100%',
-                }}
-              >
-                {showBreadCrumbs && <BreadCrumbs />}
-                {showMiniNav && !isXLDesktop && <MiniNav />}
-                {pathname === '/' ? (
+              {showBreadCrumbs && <BreadCrumbs />}
+              {showMiniNav && !isXLDesktop && <MiniNav />}
+              {pathname === '/' ? (
+                <Component {...pageProps} />
+              ) : (
+                <article>
                   <Component {...pageProps} />
-                ) : (
-                  <article>
-                    <Component {...pageProps} />
-                  </article>
-                )}
-                <SuggestsEditsButton />
-                <Footer />
-              </AppShell.Main>
-              {showMiniNav && isXLDesktop && <MiniNav />}
-            </AppShell>
-          </MDXProvider>
-        </ThemeContextProvider>
-      </PlausibleProvider>
+                </article>
+              )}
+              <SuggestsEditsButton />
+              <Footer />
+            </AppShell.Main>
+            {showMiniNav && isXLDesktop && <MiniNav />}
+          </AppShell>
+        </MDXProvider>
+      </ThemeContextProvider>
+      {/* </PlausibleProvider> */}
     </>
   );
 }
