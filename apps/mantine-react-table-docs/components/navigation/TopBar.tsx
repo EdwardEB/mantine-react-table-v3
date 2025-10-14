@@ -162,7 +162,7 @@ export const TopBar = ({ navOpen, setNavOpen }: Props) => {
               c="white"
               variant="transparent"
               size={isMobile ? 'sm' : 'lg'}
-              href="https://github.com/EdwardEB/mantine-react-table"
+              href="https://github.com/EdwardEB/mantine-react-table-v3"
               rel="noopener"
               target="_blank"
             >

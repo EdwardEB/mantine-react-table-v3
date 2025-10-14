@@ -111,7 +111,7 @@ npm install @mantine/core @mantine/hooks @mantine/dates @emotion/react @tabler/i
 3. Install mantine-react-table
 
 ```bash
-npm install @edwardeb/mantine-react-table
+npm install mantine-react-table-v3
 ```
 
 > _`@tanstack/react-table`, `@tanstack/react-virtual`, `@tanstack/match-sorter-utils`,_ are internal dependencies, so you do NOT need to install them yourself.
@@ -179,8 +179,8 @@ export default function App() {
 
 ## Contributors
 
-<a href="https://github.com/EdwardEB/mantine-react-table/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=EdwardEB/mantine-react-table" />
+<a href="https://github.com/EdwardEB/mantine-react-table-v3/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=EdwardEB/mantine-react-table-v3" />
 </a>
 
 PRs are Welcome, but please discuss in [GitHub Discussions](https://github.com/KevinVandy/mantine-react-table/discussions)

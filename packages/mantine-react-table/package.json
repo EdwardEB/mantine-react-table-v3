@@ -1,7 +1,7 @@
 {
   "version": "3.0.0-alpha.1",
   "license": "MIT",
-  "name": "mantine-react-table",
+  "name": "mantine-react-table-v3",
   "description": "A fully featured Mantine implementation of TanStack React Table V8, written from the ground up in TypeScript.",
   "author": "Edward Engelbrecht",
   "keywords": [
@@ -13,11 +13,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/EdwardEB/mantine-react-table"
+    "url": "https://github.com/EdwardEB/mantine-react-table-v3"
   },
 
   "bugs": {
-    "url": "https://github.com/EdwardEB/mantine-react-table/issues"
+    "url": "https://github.com/EdwardEB/mantine-react-table-v3/issues"
   },
   "sideEffects": [
     "*.css"
